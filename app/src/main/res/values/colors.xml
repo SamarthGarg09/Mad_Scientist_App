@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#7e53c5</color>
+    <color name="youWinDark">#35A571</color>
+    <color name="youWinBackground">#B7F8C9</color>
+    <color name="gameOverBackground">#f8bbd0</color>
+    <color name="black">#0A0D1B</color>
+    <color name="blue">#0D98D6</color>
+    <color name="qqq">#FAEF93</color>
+    <color name="ASD">#F8E861</color>
+    <color name="WQE">#D8F1FB</color>
+    <color name="WWW">#E1223013</color>
+    <color name="EEE">#F60154</color>
+    <color name="rrr">#4A0019</color>
+    <color name="qqqq">#F80054</color>
+    <color name="wwe">#F80045</color>
+</resources>

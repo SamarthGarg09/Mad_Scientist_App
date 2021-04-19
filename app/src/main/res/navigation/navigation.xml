@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_root"
+    app:startDestination="@+id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.android.navigation.MainFragment"
+        android:label="@string/madScientistGame"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_gameFragment"
+            app:destination="@id/gameFragment"
+            app:enterAnim="@anim/rotate"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/rotate"
+            app:popExitAnim="@anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.android.navigation.QuestionsFragment"
+        android:label="@string/madScientistGame"
+        tools:layout="@layout/fragment_questions">
+        <action
+            android:id="@+id/action_gameFragment_to_lostFragment"
+            app:destination="@id/lostFragment"
+            app:enterAnim="@anim/blink"
+            app:exitAnim="@anim/fade_out"
+            app:launchSingleTop="false"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:popUpTo="@+id/gameFragment"
+            app:popUpToInclusive="true" />
+        />
+        <action
+            android:id="@+id/action_gameFragment_to_congratulationFragment"
+            app:destination="@id/congratulationFragment"
+            app:enterAnim="@anim/zoom_in"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            app:popUpTo="@+id/gameFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/congratulationFragment"
+        android:name="com.example.android.navigation.CongratulationFragment"
+        android:label="@string/madScientistGame"
+        tools:layout="@layout/fragment_congratulation">
+        <argument
+            android:name="numQuestions"
+            app:argType="integer" />
+        <argument
+            android:name="numCorrect"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_congratulation_to_gameFragment"
+            app:destination="@id/gameFragment"
+            app:enterAnim="@anim/bounce"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/zoom_in"
+            app:popExitAnim="@anim/zoom_in"
+            app:popUpTo="@+id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lostFragment"
+        android:name="com.example.android.navigation.lostFragment"
+        android:label="@string/madScientistGame"
+        tools:layout="@layout/fragment_lost">
+        <action
+            android:id="@+id/action_lostFragment_to_gameFragment"
+            app:destination="@id/gameFragment"
+            app:enterAnim="@anim/bounce"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:popUpTo="@+id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="com.example.android.navigation.GamerulesFragment"
+        android:label="@string/titleGameRule"
+        tools:layout="@layout/fragment_gamerules" />
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.example.android.navigation.introFragment"
+        android:label="@string/title_about_Game"
+        tools:layout="@layout/fragment_intro" />
+</navigation>

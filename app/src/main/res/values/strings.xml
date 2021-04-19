@@ -1,0 +1,26 @@
+
+<resources>
+    <string name="app_name">Mad Scientist</string>
+    <string name="game_over">Game Over</string>
+    <string name="try_again">Try Again?</string>
+    <string name="position">Position</string>
+    <string name="select_an_avatar">Select an Avatar</string>
+    <string name="madScientistGame">PHYSICS-FAQ</string>
+    <string name="about_text">This app is designed to check out your hold on important concepts of physics.\n\nThis app has 20 questions which deals with the concepts of optics, surface tension, viscosity, units and dimensions etc.After giving all the correct answers you can also share and brag about your result.\n\nThis app is build by the JUST A LEARNER team and we hope you like it.</string>
+    <string name="rules_text">Select the answer from the options given. Each time you get an answer correct, you advance to the next question.\n\nIf you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
+    <string name="rules">Rules of MAD SCIENTIST</string>
+    <string name="about">About MAD SCIENTIST</string>
+    <string name="gameHint">Quiz Hint</string>
+    <string name="madScientistGameQuestions">Mad Scientist (%1$d/%2$d)</string>
+    <string name="title_about_Game">About MAD SCIENTIST</string>
+    <string name="titleGameRule">Quiz Rules</string>
+    <string name="share_success_text">I mastered #MAD SCIENTIST with %1$d/%2$d correct questions!</string>
+    <string name="submit_button">Submit</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="share">Share</string>
+    <string name="sharing_not_available">Sharing Not Available</string>
+    <string name="bold">bold</string>
+    <string name="italic">italic</string>
+    <string name="next_match">Next Match</string>
+
+</resources>
