@@ -17,7 +17,7 @@ Various beautiful fonts like amaranth, aref_ruqaa, etc., have been used, which m
 Users can also share their result using implicit intents with any other applications.\
 The result would be shared in the form of a string.\
 Users can restart the game from both congratulations and lost fragment, which makes it more versatile.\
-This app has been solely created by an individual and not by a group. This app may have many drawbacks, but I would like it if anyone wants to improve it.\
+This app may have many drawbacks, but I would like it if anyone wants to improve it.\
 Below are the screen shots of the app\
 ![Android Emulator - Mad_scientist 4_19_2021 6_17_54 PM](https://user-images.githubusercontent.com/76812408/115239118-06da1f80-a13c-11eb-985c-fd10f543d9a0.png)
 ![Android Emulator - Mad_scientist 4_19_2021 6_18_01 PM](https://user-images.githubusercontent.com/76812408/115239155-0d689700-a13c-11eb-8ec9-ba70a6c15912.png)
